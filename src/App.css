@@ -1,0 +1,39 @@
+
+
+
+.container {
+ max-width: 400px;
+ min-height: 450px;
+ align-items: center;
+ background-color: whitesmoke;
+ margin: 0 auto; 
+ box-shadow: gray;
+ text-align: left;
+ margin-top: 50px;
+}
+.heading {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  justify-content: space-around;
+  text-align: center;
+  box-shadow: gray;
+}
+.form input {
+  width: 100%;
+}
+.list {
+  margin: 0px;
+
+}
+.list > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  box-shadow: gray;
+  margin: 5px;
+  background-color: white;
+}
